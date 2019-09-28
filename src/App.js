@@ -15,6 +15,7 @@ import SignInAndSignUp from "./pages/sign-in-and-sign-up/sign-in-and-sign-up.com
 import CheckoutPage from "./pages/checkout/checkout.component";
 
 import { selectCurrentUser } from "./redux/user/user.selectors";
+import styled from "styled-components";
 
 class App extends React.Component {
   unsubscribeFromAuth = null;
