@@ -5,7 +5,7 @@ import CustomButton from "../custom-button/custom-button.component";
 
 import { auth, createUserProfileDocument } from "../../firebase/firebase.utils";
 
-import "./sign-up.component.scss";
+import "./sign-up.style.scss";
 import FormInput from "../form-input/form-input.component";
 
 class SignUp extends React.Component {
